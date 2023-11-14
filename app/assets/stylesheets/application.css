@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ .tasks a {
+  text-decoration: none;
+ }
+
+ .task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
